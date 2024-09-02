@@ -10,11 +10,11 @@
 <ul>
   <li>Download and install Docker from <a href="https://www.docker.com/">https://www.docker.com/</a></li>
   <li>Run the following command to "pull Docker Image" from Docker Hub: <code>docker pull shefai/intent_aware_recomm_systems</code>
-  <li>Clone the GitHub repository by using the link: <code>https://github.com/Faisalse/Intent_Aware_Recomm_Systems.git</code>
-  <li>Move into the <b>Intent_Aware_Recomm_Systems</b> directory</li>
+  <li>Clone the GitHub repository by using the link: <code>https://github.com/Faisalse/IDS4NR.git</code>
+  <li>Move into the <b>IDS4NR</b> directory</li>
   
-  <li>Run the command to mount the current directory <i>Intent_Aware_Recomm_Systems</i> to the docker container named as <i>intent_aware_recomm_systems_container</i>: <code>docker run --name intent_aware_recomm_systems_container  -it -v "$(pwd):/Intent_Aware_Recomm_Systems" -it shefai/intent_aware_recomm_systems</code>. If you have the support of CUDA-capable GPUs then run the following command to attach GPUs with the container: <code>docker run --name intent_aware_recomm_systems_container  -it --gpus all -v "$(pwd):/SessionRecGraphFusion" -it shefai/intent_aware_recomm_systems</code></li> 
-<li>If you are already inside the runing container then run the command to navigate to the mounted directory <i>Intent_Aware_Recomm_Systems</i>: <code>cd /Intent_Aware_Recomm_Systems</code> otherwise starts the "intent_aware_recomm_systems_container"</li>
+  <li>Run the command to mount the current directory <i>IDS4NR</i> to the docker container named as <i>IDS4NR_container</i>: <code>docker run --name IDS4NR_container  -it -v "$(pwd):/IDS4NR" -it shefai/intent_aware_recomm_systems</code>. If you have the support of CUDA-capable GPUs then run the following command to attach GPUs with the container: <code>docker run --name IDS4NR_container  -it --gpus all -v "$(pwd):/IDS4NR" -it shefai/intent_aware_recomm_systems</code></li> 
+<li>If you are already inside the runing container then run the command to navigate to the mounted directory <i>IDS4NR</i>: <code>cd /IDS4NR</code> otherwise starts the "IDS4NR_container"</li>
 <li>Finally, follow the given instructions to run the experiments for each model </li>
 </ul>  
 <h5>Using Anaconda</h5>
