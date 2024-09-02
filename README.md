@@ -4,12 +4,6 @@
 
 </head>
 <body>
-<h2>Intent Aware Recommender Systems</h2>
-<p align="center">
-  <img src="intentAware.webp" width="300", title="Intent Aware Recommender Systems">
-  
-</p>
-
 <h2>Installation guide</h2>  
 <p>This is how the framework can be downloaded and configured to run the experiments</p>
 <h5>Using Docker</h5>
@@ -26,11 +20,11 @@
 <h5>Using Anaconda</h5>
   <ul>
     <li>Download Anaconda from <a href="https://www.anaconda.com/">https://www.anaconda.com/</a> and install it</li>
-    <li>Clone the GitHub repository by using this link: <code>https://github.com/Faisalse/Intent_Aware_Recomm_Systems.git</code></li>
+    <li>Clone the GitHub repository by using this link: <code>https://github.com/Faisalse/IDS4NR.git</code></li>
     <li>Open the Anaconda command prompt</li>
-    <li>Move into the <b>Intent_Aware_Recomm_Systems</b> directory</li>
-    <li>Run this command to create virtual environment: <code>conda create --name Intent_Aware_Recomm_Systems python=3.8</code></li>
-    <li>Run this command to activate the virtual environment: <code>conda activate Intent_Aware_Recomm_Systems</code></li>
+    <li>Move into the <b>IDS4NR</b> directory</li>
+    <li>Run this command to create virtual environment: <code>conda create --name IDS4NR python=3.8</code></li>
+    <li>Run this command to activate the virtual environment: <code>conda activate IDS4NR</code></li>
     <li>Run this command to install the required libraries for CPU: <code>pip install -r requirements_cpu.txt</code>. However, if you have support of CUDA-capable GPUs, 
         then run this command to install the required libraries to run the experiments on GPU: <code>pip install -r requirements_gpu.txt</code></li>
   </ul>
